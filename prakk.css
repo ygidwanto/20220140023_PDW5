@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#judul {
+    text-align: center;
+}
+
+.table-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.table {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.table-header {
+    flex: 1;
+    padding: 10px;
+    background-color: aqua;
+    text-align: center;
+}
+
+.table-row {
+    display: flex;
+    flex: 1;
+    border-top: 1px solid #ccc;
+}
+
+.table-cell {
+    flex: 1;
+    padding: 10px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.member {
+    font-weight: bold;
+}
+
+.mnama {
+    margin-top: 0;
+}
+
+.mras, .asal {
+    margin-bottom: 5px;
+}

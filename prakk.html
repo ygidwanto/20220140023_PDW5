@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="table.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Jenis_Jenis Kucing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        #judul {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 20px;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+        .table {
+            border-collapse: collapse;
+            width: 100%;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+        th, td {
+            padding: 20px;
+            text-align: left;
+            vertical-align: top;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .zoomable {
+            transition: transform 0.3s ease;
+        }
+        .zoomable:hover {
+            transform: scale(1.1); /* Efek zoom saat dihover */
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 2px solid #4CAF50;
+        }
+        .profile {
+            padding-left: 20px;
+        }
+        p {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        /* Style untuk tombol button */
+        .button {
+            display: block;
+            margin: 20px auto; /* Untuk menengahkan tombol */
+            padding: 10px 20px; /* Ukuran padding tombol */
+            font-size: 18px; /* Ukuran font tombol */
+            background-color: #4CAF50; /* Warna latar tombol */
+            color: white; /* Warna teks tombol */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        /* Efek hover pada tombol */
+        .button:hover {
+            background-color: #45a049;
+        }
+        /* Style untuk tanggal dan waktu */
+        #datetime {
+            text-align: center;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mendefinisikan Jenis-Jenis Kucing yang Seakan Menjadi Raja Untuk Majikannya</h1>
+    </header>
+    
+    <div id="judul">Ini Adalah Jenis Kucing Yang Sering Dipelihara Khalayak Umum</div>
+    
+    <div class="container">
+        <!-- Tabel kiri -->
+        <div>
+            <table class="table">
+                <tr>
+                    <th>Fotoku </th>
+                    <th>Definisiku</th>
+                </tr>
+                <tr>
+                    <td><img class="zoomable" src="kampung.jpeg" alt="Kampung"></td>
+                    <td class="profile">
+                        <p>Nama : Kucing Kampung</p>
+                        <p>Ras : Merupakan kucing asli Indonesia</p>
+                        <p>Asal : Asli dari negara Indonesia</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img class="zoomable" src="persia.jpeg" alt="Persia"></td>
+                    <td class="profile">
+                        <p>Nama : Kucing Persia</p>
+                        <p>Ras : Merupakan kucing ras yang dikembangkan di Indonesia</p>
+                        <p>Asal : Asli dari negara Persia yang sekarang pecah menjadi negara Turki & Iran</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img class="zoomable" src="anggora.jpeg" alt="Anggora"></td>
+                    <td class="profile">
+                        <p>Nama : Kucing Anggora</p>
+                        <p>Ras : Merupakan kucing ras yang sekarang banyak dan hampir banyak yang kesuliatam membedakan antara Anggora dan Persia</p>
+                        <p>Asal : Asli dari negara Turki yang ditemukan pada abad ke 16</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!-- Tabel kanan -->
+        <div>
+            <table class="table">
+                <tr>
+                    <th>Fotoku</th>
+                    <th>Definisiku</th>
+                </tr>
+                <tr>
+                    <td><img class="zoomable" src="siam.jpeg" alt="Siam"></td>
+                    <td class="profile">
+                        <p>Nama : Kucing Siam</p>
+                        <p>Ras : Merupakan kucing ras oriental yang sangat merebak di Thailand</p>
+                        <p>Asal : Muncul pertama kali di Australia tahun 1890</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img class="zoomable" src="maincon.jpeg" alt="Maine Coon"></td>
+                    <td class="profile">
+                        <p>Nama : Kucing Maine Coon</p>
+                        <p>Ras : Merupakan kucing domestik yang paling besar</p>
+                        <p>Asal : Berasal dari negara Amerika, Memiliki sifat lincah</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img class="zoomable" src="spinik.jpeg" alt="Sphynx"></td>
+                    <td class="profile">
+                        <p>Nama : Kucing Sphynx</p>
+                        <p>Ras : Merupakan kucing ras yang sangat unik karena hampir tidak memiliki bulu</p>
+                        <p>Asal : Berasal dari negara Australia, Uniknya lagi Kucing Sphynx juga menjadi satu-satunya jenis kucing yang memiliki kelenjar keringat</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+    <!-- Tanggal dan waktu -->
+    <div id="datetime"></div>
+    
+    <!-- Tombol Button -->
+    <button class="button" onclick="showNotification()">Kepoin yuk</button>
+
+    <script>
+        function showNotification() {
+            alert("Ini semua merupakan jenis kucing yang saya ketahui\n\nDikerjakan oleh YogiDewanto nim 023");
+        }
+
+        // Fungsi untuk menampilkan tanggal dan waktu secara real-time
+        function displayDateTime() {
+            var dt = new Date();
+            var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: false };
+            document.getElementById("datetime").textContent = dt.toLocaleDateString('en-US', options);
+        }
+
+        // Panggil fungsi displayDateTime setiap detik
+        setInterval(displayDateTime, 1000);
+    </script>
+</body>
+</html>
